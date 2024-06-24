@@ -1,0 +1,280 @@
+body {
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/seamless-repeating-background-tile-terryfic3d.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: rgb(163, 209, 255);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(101 178 209);
+    width: 100%;
+    clear: both;
+    display: table;
+    position: fixed;
+}
+
+.logo {
+    padding-left: 50px;
+    margin: 0 auto;
+    float: left;
+}
+
+nav {
+    height: 30%;
+    float: right;
+}
+
+nav ul li {
+    line-height: 50px;
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    padding: 20px 0;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-size: 30px;
+}
+
+.cita {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    transition: all 1 ease;
+}
+
+.cita a {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(137, 207, 240);
+    border: 2px solid black;
+}
+
+.cita a:hover {
+    color: #333;
+    background-color: aquamarine;
+}
+
+.cita img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cita>ul {
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(245 242 234);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 105px;
+    margin-bottom: 80px;
+}
+
+.texto {
+    width: 47%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.texto h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.servicios {
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(137, 207, 240);
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s ease;
+}
+
+.servicios:hover {
+    background-color: aquamarine;
+}
+
+.especialidades {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.espec1 {
+    width: 26%;
+}
+
+.espec2 {
+    width: 26%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.espec3 {
+    width: 26%;
+}
+
+.espec1 p,
+.espec2 p,
+.espec3 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 80px;
+}
+
+.espec1 img,
+.espec2 img,
+.espec3 img {
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.cont {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.horario {
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.horario td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#dias {
+    background-color: gray;
+    font-weight: bold;
+}
+
+#horas {
+    background-color: rgb(108, 151, 179);
+}
+
+#vacio {
+    border: none;
+}
+
+.texto_tabla {
+    width: 27%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+}
+
+.ubicacion {
+    margin-top: 50px;
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
+.redes {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.redes h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.redes a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(249, 255, 171);
+    padding-bottom: 20px;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.redes a:hover {
+    color: rgb(255, 157, 0);
+}
+
+.redes img {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.contactanos {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.contactanos h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.contactanos p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(249, 255, 171);
+    padding-bottom: 20px;
+}
+
+.contactanos img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 40px;
+}

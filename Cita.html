@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Apartado web para pedir cita de manera online en una de nuestras clinicas">
+    <meta name="author" content="Erik Moldovan Pal">
+    <link rel="stylesheet" href="./css/Cita.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/fabicon.png">
+    <title>Pedir Cita | Vistina Clinica Oftalmologica</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <a href="./Clinica.html">
+                <img src="./imagenes/Logo_clinica.png" class="logo" alt="Logo de la clinica" height="80%"
+                    width="200px"></a>
+            <nav>
+                <ul>
+                    <li><a href="./Clinica.html">Inicio</a></li>
+                    <li><a href="./Especialidades.html">Especialidades</a></li>
+                    <li><a href="./Quienes somos.html">Quienes Somos</a></li>
+                    <li><a href="./Trabaja con Nosotros.html">Trabaja con Nosotros</a></li>
+                    <li class="cita"><a href="./Cita.html" type="button">Pedir Cita<img src="./imagenes/click.png"
+                                alt="dedo haciendo click" height="45px" width="45px"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>FORMULARIO DE CITA</h1>
+        <hr>
+        <div class="formulario">
+            <form method="post" action="mailto:clinicavistina@gmail.com" name="cita" autocomplete="on">
+                <mark>Nombre:</mark>
+                <input type="text" name="nombre" minlength="1" placeholder=" Escriba su nombre">
+                <br><br>
+                <mark>Primer Apellido:</mark>
+                <input type="text" name="apellido1" minlength="1" placeholder=" Escriba su primer apellido">
+                <br><br>
+                <mark>Segundo Apellido:</mark>
+                <input type="text" name="apellido2" placeholder=" Escriba su segundo apellido">
+                <br><br>
+                <mark>Fecha de Nacemiento:</mark>
+                <input type="date" name="fecha_nacimiento" min="1903-01-01">
+                <br><br>
+                <mark>Email:</mark>
+                <input type="email" name="email" placeholder=" Escriba su email">
+                <br><br>
+                <mark>Telefono:</mark>
+                <input type="tel" name="telefono" minlength="1" placeholder=" Escriba su numero de telefono">
+                <br><br>
+                <mark>Motivo de la cita:</mark>
+                <textarea type="fieldset" name="motivo_cita" minlength="1"
+                    placeholder=" Escriba el motivo de la cita"></textarea>
+                <br><br>
+                <button type="reset" name="restablecer" value="restablecer"><img src="./imagenes/restablecer.png"
+                        alt="boton de x" width="15px" height="15px"> Restablecer formulario</button>
+                <button type="submit" name="enviar" value="enviar"><img src="./imagenes/enviar.png"
+                        alt="boton de enviar" width="15px" height="15px"> Enviar formulario</button>
+            </form>
+        </div>
+        <br><br>
+    </main>
+</body>
+
+</html>
